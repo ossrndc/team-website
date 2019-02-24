@@ -2,6 +2,8 @@ const allClass = "active-move-up inactive-move-up active-move-down inactive-move
 var canScroll = true;
 var scrollCounter = $('.screen').length;
 
+var lastY;
+
 $(document).ready(function () {
 
 });
@@ -11,6 +13,16 @@ $(window).bind('mousewheel', function (e) {
         scrollUpCase();
     else
         scrollDownCase();
+});
+
+$(window).bind('touchmove', function (e) {
+    var currentY = e.originalEvent.touches[0].clientY;
+    if (currentY < lastY)
+        scrollUpCase();
+    else
+        scrollDownCase();
+
+    lastY = currentY;
 });
 
 function scrollUpCase() {
