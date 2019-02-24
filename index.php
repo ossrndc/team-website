@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<main class="screen container-fluid">
+<main class="screen container-fluid active">
     <div class="row">
         <div class="col-12">
             <div class="center-head-main">
@@ -28,7 +28,7 @@
     </div>
 </main>
 
-<main class="screen container-fluid active">
+<main class="screen container-fluid">
     <div class="row">
         <div class="col-lg-6 col-12 content-empty-div second">
             <div class="center-head"><?php require_once './helpers/projects.php' ?></div>
@@ -85,6 +85,6 @@
 
 <script src="assets/plugins/jquery/jquery-3.3.1.min.js"></script>
 <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-<!--<script src="assets/js/custom.js"></script>-->
+<script src="assets/js/custom.js"></script>
 </body>
 </html>

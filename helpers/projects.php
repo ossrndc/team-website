@@ -1,21 +1,3 @@
-<style>
-    /* Make the image fully responsive */
-    .carousel-inner img {
-        width: 100%;
-        height: 100%;
-    }
-    .carousel-indicators li {
-        width: 10px;
-        height: 10px;
-        margin: 10px;
-        transform: rotate(45deg);
-        bottom: -10vh;
-        background: var(--theme-primary);
-    }
-    .carousel-indicators li.active {
-        background: var(--theme-black);
-    }
-</style>
 <div class="row">
     <div class="col-12 col-lg-10 offset-lg-1">
 
