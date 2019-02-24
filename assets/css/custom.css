@@ -46,7 +46,7 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 .screen{
-    height: 100vh;
+    height: 100%;
     position: absolute;
     left:0;
     top:100%;
