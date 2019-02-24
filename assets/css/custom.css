@@ -66,6 +66,8 @@ body {
 .content-empty-div{
     height: 100vh;
 }
+.center-carousel{
+}
 .center-head{
     display: flex;
     align-items: center;
