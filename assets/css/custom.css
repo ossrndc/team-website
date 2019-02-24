@@ -47,7 +47,7 @@ body {
 }
 .screen{
     height: 100vh;
-    position: absolute;
+    position: static;
     left:0;
     top:100%;
     width: 100%;
