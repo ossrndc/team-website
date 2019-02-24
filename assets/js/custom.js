@@ -46,9 +46,9 @@ function scrollUpCase() {
     if (scrollCounter < divCount) {
         scrollCounter++;
         $(window).unbind();
-        $('.active').addClass('active-move-down').prev(".screen").addClass("inactive-move-down");
+        $('.screen.active').addClass('active-move-down').prev(".screen").addClass("inactive-move-down");
         setTimeout(function () {
-            $('.active').removeClass('active').prev(".screen").addClass("active");
+            $('.screen.active').removeClass('active').prev(".screen").addClass("active");
             $(".screen").removeClass(allClass);
             bindEvents(rebindTime);
         }, 1000);
@@ -59,9 +59,9 @@ function scrollDownCase() {
     if (scrollCounter > 1) {
         scrollCounter--;
         $(window).unbind();
-        $('.active').addClass('active-move-up').next(".screen").addClass("inactive-move-up");
+        $('.screen.active').addClass('active-move-up').next(".screen").addClass("inactive-move-up");
         setTimeout(function () {
-            $('.active').removeClass('active').next(".screen").addClass("active");
+            $('.screen.active').removeClass('active').next(".screen").addClass("active");
             $(".screen").removeClass(allClass);
             bindEvents(rebindTime);
         }, 1000);
