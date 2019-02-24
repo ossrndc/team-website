@@ -73,6 +73,14 @@
     </div>
 </main>
 
+<main class="screen container-fluid">
+    <div class="row">
+        <div class="col-12 head-div-primary first">
+            <div class="center-head"><h1 class="text-center">Footer Page</h1></div>
+        </div>
+    </div>
+</main>
+
 <script src="assets/plugins/jquery/jquery-3.3.1.min.js"></script>
 <script src="assets/js/custom.js"></script>
 </body>

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46bbf3ba-df3c-4f98-851c-0f86657aa120" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/custom.css" afterPath="$PROJECT_DIR$/assets/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/custom.js" afterPath="$PROJECT_DIR$/assets/js/custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,21 +20,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            <state relative-caret-position="204">
+              <caret line="45" column="32" lean-forward="false" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="75" column="19" lean-forward="false" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+            <state relative-caret-position="289">
+              <caret line="53" column="1" lean-forward="false" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -43,23 +56,30 @@
     <findStrings>
       <find>div-pink</find>
       <find>cubic-bezier(.19,.84,.8,.16)</find>
-      <find>2.5s</find>
       <find>1.7s</find>
       <find>1.5s</find>
       <find>cubic-bezier(0,.72,.9,.44)</find>
       <find>content-em</find>
       <find>order-0</find>
       <find>order-1</find>
+      <find>1s</find>
+      <find>2s</find>
+      <find>cubic-bezier(.17,.67,.83,.67)</find>
+      <find>2.5s</find>
+      <find>cubic-bezier(1,0,0,1)</find>
     </findStrings>
     <replaceStrings>
       <replace>div-primary</replace>
       <replace>cubic-bezier(0,.72,.9,.44)</replace>
-      <replace>2s</replace>
-      <replace>1.5s</replace>
       <replace>1s</replace>
       <replace>cubic-bezier(0,.63,.41,.25)</replace>
       <replace>first</replace>
       <replace>second</replace>
+      <replace>2s</replace>
+      <replace>2.5s</replace>
+      <replace>cubic-bezier(.22,.45,.52,-0.01)</replace>
+      <replace>1.5s</replace>
+      <replace>cubic-bezier(.5,.11,.23,.86)</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -69,8 +89,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/assets/js/custom.js" />
         <option value="$PROJECT_DIR$/assets/css/custom.css" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/assets/js/custom.js" />
       </list>
     </option>
   </component>
@@ -179,12 +200,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550921693354</updated>
-      <workItem from="1550921698678" duration="22961000" />
+      <workItem from="1550921698678" duration="31677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22961000" />
+    <option name="totallyTimeSpent" value="31677000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -247,18 +268,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
+    <entry file="file://$PROJECT_DIR$/assets/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        <state relative-caret-position="289">
+          <caret line="53" column="1" lean-forward="false" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/custom.css">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        <state relative-caret-position="336">
+          <caret line="75" column="19" lean-forward="false" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="45" column="32" lean-forward="false" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
           <folding />
         </state>
       </provider>
