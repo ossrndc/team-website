@@ -4,6 +4,7 @@
     <title>OSS R&D</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
@@ -22,9 +23,15 @@
 <main class="screen container-fluid">
     <div class="row">
         <div class="col-lg-6 col-12 head-div-primary first">
-            <div class="center-head"><h1 class="text-center">Our Domains</h1></div>
+            <div class="center-head">
+                <div class="intro-head-up"></div>
+                <h1 class="text-center">Our Domains</h1>
+                <div class="intro-head-down"></div>
+            </div>
         </div>
-        <div class="col-lg-6 col-12 content-empty-div second"></div>
+        <div class="col-lg-6 col-12 content-empty-div second">
+            <?php require_once './helpers/domains.php' ?>
+        </div>
     </div>
 </main>
 
@@ -34,7 +41,11 @@
             <div class="center-head"><?php require_once './helpers/projects.php' ?></div>
         </div>
         <div class="col-lg-6 col-12 head-div-black first">
-            <div class="center-head"><h1 class="text-center">Our Projects</h1></div>
+            <div class="center-head">
+                <div class="intro-head-up"></div>
+                <h1 class="text-center">Our Projects</h1>
+                <div class="intro-head-down"></div>
+            </div>
         </div>
     </div>
 </main>
@@ -42,7 +53,39 @@
 <main class="screen container-fluid">
     <div class="row">
         <div class="col-lg-6 col-12 head-div-primary first">
-            <div class="center-head"><h1 class="text-center">Our Events</h1></div>
+            <div class="center-head">
+                <div class="intro-head-up"></div>
+                <h1 class="text-center">Center Activity Charter</h1>
+                <div class="intro-head-down"></div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-12 content-empty-div second"></div>
+    </div>
+</main>
+
+<main class="screen container-fluid">
+    <div class="row">
+        <div class="col-lg-6 col-12 content-empty-div second">
+            <div class="center-head"><?php require_once './helpers/events.php' ?></div>
+        </div>
+        <div class="col-lg-6 col-12 head-div-black first">
+            <div class="center-head">
+                <div class="intro-head-up"></div>
+                <h1 class="text-center">Events</h1>
+                <div class="intro-head-down"></div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<main class="screen container-fluid">
+    <div class="row">
+        <div class="col-lg-6 col-12 head-div-primary first">
+            <div class="center-head">
+                <div class="intro-head-up"></div>
+                <h1 class="text-center">Our Team</h1>
+                <div class="intro-head-down"></div>
+            </div>
         </div>
         <div class="col-lg-6 col-12 content-empty-div second"></div>
     </div>
@@ -52,25 +95,11 @@
     <div class="row">
         <div class="col-lg-6 col-12 content-empty-div second"></div>
         <div class="col-lg-6 col-12 head-div-black first">
-            <div class="center-head"><h1 class="text-center">Centre Activity Charter</h1></div>
-        </div>
-    </div>
-</main>
-
-<main class="screen container-fluid">
-    <div class="row">
-        <div class="col-lg-6 col-12 head-div-primary first">
-            <div class="center-head"><h1 class="text-center">Our Team</h1></div>
-        </div>
-        <div class="col-lg-6 col-12 content-empty-div second"></div>
-    </div>
-</main>
-
-<main class="screen container-fluid">
-    <div class="row">
-        <div class="col-lg-6 col-12 content-empty-div second"></div>
-        <div class="col-lg-6 col-12 head-div-black first">
-            <div class="center-head"><h1 class="text-center">Our Alumini</h1></div>
+            <div class="center-head">
+                <div class="intro-head-up"></div>
+                <h1 class="text-center">Alumini</h1>
+                <div class="intro-head-down"></div>
+            </div>
         </div>
     </div>
 </main>
@@ -78,7 +107,9 @@
 <main class="screen container-fluid">
     <div class="row">
         <div class="col-12 head-div-primary first">
-            <div class="center-head"><h1 class="text-center">Footer Page</h1></div>
+            <div class="center-head">
+                <h1 class="text-center">&copy; 2019 OSS R&D Centre, Founder Team</h1>
+            </div>
         </div>
     </div>
 </main>

@@ -1,81 +1,109 @@
 @keyframes active-move-up {
-    from {top: 0;}
-    to {top: -100%;}
+    from {
+        top: 0;
+    }
+    to {
+        top: -100%;
+    }
 }
+
 @keyframes inactive-move-up {
-    from {top: 100%;}
-    to {top: 0;}
+    from {
+        top: 100%;
+    }
+    to {
+        top: 0;
+    }
 }
+
 @keyframes active-move-down {
-    from {top: 0;}
-    to {top: 100%;}
+    from {
+        top: 0;
+    }
+    to {
+        top: 100%;
+    }
 }
+
 @keyframes inactive-move-down {
-    from {top: -100%;}
-    to {top: 0;}
+    from {
+        top: -100%;
+    }
+    to {
+        top: 0;
+    }
 }
 
-.active-move-up{
+.active-move-up {
     /*top:-100%;*/
-    -webkit-animation: active-move-up 1s cubic-bezier(.5,.11,.23,.86);
-    animation: active-move-up 1s cubic-bezier(.5,.11,.23,.86);
-}
-.inactive-move-up{
-    /*top:0;*/
-    -webkit-animation: inactive-move-up 1s cubic-bezier(.5,.11,.23,.86);
-    animation: inactive-move-up 1s cubic-bezier(.5,.11,.23,.86);
-}
-.active-move-down{
-    /*top:100%;*/
-    -webkit-animation: active-move-down 1s cubic-bezier(.5,.11,.23,.86);
-    animation: active-move-down 1s cubic-bezier(.5,.11,.23,.86);
-}
-.inactive-move-down{
-    /*top:0;*/
-    -webkit-animation: inactive-move-down 1s cubic-bezier(.5,.11,.23,.86);
-    animation: inactive-move-down 1s cubic-bezier(.5,.11,.23,.86);
+    -webkit-animation: active-move-up 1s cubic-bezier(.5, .11, .23, .86);
+    animation: active-move-up 1s cubic-bezier(.5, .11, .23, .86);
 }
 
-:root{
+.inactive-move-up {
+    /*top:0;*/
+    -webkit-animation: inactive-move-up 1s cubic-bezier(.5, .11, .23, .86);
+    animation: inactive-move-up 1s cubic-bezier(.5, .11, .23, .86);
+}
+
+.active-move-down {
+    /*top:100%;*/
+    -webkit-animation: active-move-down 1s cubic-bezier(.5, .11, .23, .86);
+    animation: active-move-down 1s cubic-bezier(.5, .11, .23, .86);
+}
+
+.inactive-move-down {
+    /*top:0;*/
+    -webkit-animation: inactive-move-down 1s cubic-bezier(.5, .11, .23, .86);
+    animation: inactive-move-down 1s cubic-bezier(.5, .11, .23, .86);
+}
+
+:root {
     --theme-primary: #37E1C9;
     --theme-black: #1D1D1D;
 }
+
 body {
     height: 100vh;
     overflow: hidden;
     font-family: 'Quicksand', sans-serif;
 }
-.screen{
+
+.screen {
     height: 100vh;
     position: absolute;
-    left:0;
-    top:100%;
+    left: 0;
+    top: 100%;
     width: 100%;
 }
-.screen.active{
-    top:0;
+
+.screen.active {
+    top: 0;
 }
-.head-div-primary{
+
+.head-div-primary {
     background-color: var(--theme-primary);
     height: 100vh;
 }
-.head-div-black{
+
+.head-div-black {
     background-color: var(--theme-black);
     height: 100vh;
 }
-.content-empty-div{
+
+.content-empty-div {
     height: 100vh;
 }
-.center-carousel{
-}
-.center-head{
+
+.center-head {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
     color: white;
 }
-.center-head-main{
+
+.center-head-main {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -83,33 +111,89 @@ body {
     color: var(--theme-primary);
 }
 
+.carousel-inner {
+    border-radius: 25px;
+}
+
 .carousel-inner img {
     width: 100%;
     height: 100%;
 }
+
 .carousel-indicators li {
-    width: 10px;
-    height: 10px;
-    margin: 10px;
-    transform: rotate(45deg);
-    bottom: -10vh;
-    background: var(--theme-primary);
-}
-.carousel-indicators li.active {
+    width: 15px;
+    height: 15px;
+    margin: 15px;
+    border-radius: 100%;
+    bottom: -20vh;
     background: var(--theme-black);
 }
 
+.carousel-indicators li.active {
+    background: var(--theme-primary);
+    width: 22px;
+    height: 22px;
+    bottom: -19.5vh;
+}
 
-@media only screen and (max-width: 991.92px){
-    .first{
+.circle-div {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-color: var(--theme-black);
+    margin: auto;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+
+.domain-head {
+    margin-top: 10%;
+    text-align: center;
+    color: var(--theme-primary);
+}
+
+@media only screen and (max-width: 991.92px) {
+    .first {
         order: 1;
         height: 15vh;
     }
-    .second{
+
+    .second {
         order: 2;
         height: 85vh;
     }
-    .screen{
+
+    .screen {
         position: fixed;
+    }
+
+    .circle-div {
+        border-radius: 100%;
+        width: 70px;
+        height: 70px;
+        background-color: var(--theme-black);
+        margin: auto;
+    }
+
+    .domain-head {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .intro-head-up {
+        /*content: '';*/
+        border-top: 1px solid white;
+        width: 15%;
+        height: 12%;
+        position: absolute;
+    }
+
+    .intro-head-down {
+        /*content: '';*/
+        border-bottom: 1px solid white;
+        width: 15%;
+        height: 12%;
+        position: absolute;
     }
 }
