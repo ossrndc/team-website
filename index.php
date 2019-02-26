@@ -106,9 +106,9 @@
 
 <main class="screen container-fluid">
     <div class="row">
-        <div class="col-12 head-div-primary first">
+        <div class="col-12 head-div-primary">
             <div class="center-head">
-                <h1 class="text-center">&copy; 2019 OSS R&D Centre, Founder Team</h1>
+                <h2 class="text-center">&copy; 2019 OSS R&D Centre, Founder Team</h2>
             </div>
         </div>
     </div>
