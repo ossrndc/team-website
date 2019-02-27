@@ -1,30 +1,36 @@
-<div class="row">
-    <div class="col-12 col-lg-10 offset-lg-1">
+<div class="row py-5 my-5 my-lg-0">
+    <div class="col-10 offset-1 col-lg-8 offset-lg-2">
 
         <div class="center-carousel">
 
-            <div id="demo" class="carousel slide" data-ride="carousel">
+            <div id="projects" class="carousel slide" data-ride="carousel">
 
                 <!-- Indicators -->
                 <ul class="carousel-indicators">
-                    <li data-target="#demo" data-slide-to="0" class="active"></li>
-                    <li data-target="#demo" data-slide-to="1"></li>
-                    <li data-target="#demo" data-slide-to="2"></li>
+                    <li data-target="#projects" data-slide-to="0" class="active"></li>
+                    <li data-target="#projects" data-slide-to="1"></li>
+                    <li data-target="#projects" data-slide-to="2"></li>
                 </ul>
 
                 <!-- The slideshow -->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="../assets/images/projects/la.jpg" alt="Los Angeles" width="1100" height="500">
+                        <img src="./assets/images/projects/la.jpg" alt="Los Angeles" width="1100" height="500">
                     </div>
                     <div class="carousel-item">
-                        <img src="../assets/images/projects/chicago.jpg" alt="Chicago" width="1100" height="500">
+                        <img src="./assets/images/projects/chicago.jpg" alt="Chicago" width="1100" height="500">
                     </div>
                     <div class="carousel-item">
-                        <img src="../assets/images/projects/ny.jpg" alt="New York" width="1100" height="500">
+                        <img src="./assets/images/projects/ny.jpg" alt="New York" width="1100" height="500">
                     </div>
                 </div>
 
+                <div class="carousel-control-custom carousel-next-custom">
+                    <i class="fa fa-chevron-right"></i>
+                </div>
+                <div class="carousel-control-custom carousel-prev-custom">
+                    <i class="fa fa-chevron-left"></i>
+                </div>
 <!--                <!-- Left and right controls -->-->
 <!--                <a class="carousel-control-prev" href="#demo" data-slide="prev">-->
 <!--                    <span class="carousel-control-prev-icon"></span>-->

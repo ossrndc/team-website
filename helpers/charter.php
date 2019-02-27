@@ -1,0 +1,75 @@
+<div class="center-head row">
+    <div class="col-12 col-lg-10 offset-lg-1 py-5 my-5">
+
+        <div class="center-carousel">
+
+            <div id="charter" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#charter" data-slide-to="0" class="active"></li>
+                    <li data-target="#charter" data-slide-to="1"></li>
+                    <li data-target="#charter" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner text-center" style="min-height: 400px">
+                    <div class="carousel-item active">
+                        <figure class="hod-image">
+                            <img src="./assets/images/projects/chicago.jpg">
+                        </figure>
+                        <div class="member-name">Sunita</div>
+                        <div class="member-data">hod</div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-6">
+                                <figure class="member-image">
+                                    <img src="./assets/images/projects/chicago.jpg">
+                                </figure>
+                                <h4 class="txt-theme mt-5 pt-3">Arunwa</h4>
+                                <p class="txt-black">Chutiya</p>
+                            </div>
+                            <div class="col-6">
+                                <figure class="member-image">
+                                    <img src="./assets/images/projects/chicago.jpg">
+                                </figure>
+                                <h4 class="txt-theme mt-5 pt-3">Sonam Gupta</h4>
+                                <p class="txt-black">Professor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-6">
+                                <figure class="member-image">
+                                    <img src="./assets/images/projects/chicago.jpg">
+                                </figure>
+                                <h4 class="txt-theme mt-5 pt-3">Deepak Sir</h4>
+                                <p class="txt-black"></p>
+                            </div>
+                            <div class="col-6">
+                                <figure class="member-image">
+                                    <img src="./assets/images/projects/chicago.jpg">
+                                </figure>
+                                <h4 class="txt-theme mt-5 pt-3">Lipika</h4>
+                                <p class="txt-black">Professor</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Left and right controls -->
+<!--                <a class="carousel-control-prev" href="#events" data-slide="prev">-->
+<!--                    <span class="carousel-control-prev-icon"></span>-->
+<!--                </a>-->
+<!--                <a class="carousel-control-next" href="#events" data-slide="next">-->
+<!--                    <span class="carousel-control-next-icon"></span>-->
+<!--                </a>-->
+            </div>
+
+        </div>
+
+    </div>
+</div>
