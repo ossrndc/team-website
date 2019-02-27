@@ -328,6 +328,10 @@ body {
     color:  var(--theme-black);
 }
 
+.footer-footer{
+    margin-top: -18%;
+}
+
 @media only screen and (max-width: 991.92px) {
     body{
         height: auto;
@@ -410,5 +414,9 @@ body {
         margin-top: 4px;
         width: 14px;
         height: 14px;
+    }
+
+    .footer-footer{
+        margin-top: -70%;
     }
 }

@@ -18,7 +18,7 @@
                 <div class="bubble logo-bubble">
                     <img src="assets/images/logo.svg">
                 </div>
-                <div class="bubble bubble-with-logo-1"></div>
+                <div class="bubble bubble-with-logo-1 floating-divs"></div>
                 <div class="bubble bubble-with-logo-2"></div>
 
                 <div class="bubble bubble-opac"></div>
@@ -121,7 +121,24 @@
     <div class="row">
         <div class="col-12 head-div-primary">
             <div class="center-head">
-                <h2 class="text-center">&copy; 2019 OSS R&D Centre, Founder Team</h2>
+                <h2 class="text-center">&copy; 2019 Copyright: OSS R&D Team<br><br>
+                    <a href="https://facebook.com/ossrd" class="text-white"><i class="fa fa-facebook"></i></a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="http://ossrndc.in" class="text-white"><i class="fa fa-globe"></i></a>
+                </h2>
+            </div>
+            <div class="col-12 footer-footer text-white">
+                <div class="row">
+                    <div class="col-12 col-lg-4 text-center">
+                        <h4>We Innovate</h4>
+                    </div>
+                    <div class="col-12 col-lg-4 text-center">
+                        <h4>We Create</h4>
+                    </div>
+                    <div class="col-12 col-lg-4 text-center">
+                        <h4>We are Technocrats</h4>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

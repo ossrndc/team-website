@@ -16,25 +16,25 @@
                 <div class="carousel-inner text-center" style="min-height: 400px">
                     <div class="carousel-item active">
                         <figure class="hod-image">
-                            <img src="./assets/images/projects/chicago.jpg">
+                            <img src="./assets/images/faculty/1.jpg">
                         </figure>
-                        <div class="member-name">Sunita</div>
-                        <div class="member-data">hod</div>
+                        <div class="member-name">Dr. Sunita Yadav</div>
+                        <div class="member-data">HOD CSE</div>
                     </div>
                     <div class="carousel-item">
                         <div class="row">
                             <div class="col-6">
                                 <figure class="member-image">
-                                    <img src="./assets/images/projects/chicago.jpg">
+                                    <img src="./assets/images/faculty/2.jpg">
                                 </figure>
                                 <h4 class="txt-theme mt-5 pt-3">Arunwa</h4>
                                 <p class="txt-black">Chutiya</p>
                             </div>
                             <div class="col-6">
                                 <figure class="member-image">
-                                    <img src="./assets/images/projects/chicago.jpg">
+                                    <img src="./assets/images/faculty/3.jpg">
                                 </figure>
-                                <h4 class="txt-theme mt-5 pt-3">Sonam Gupta</h4>
+                                <h4 class="txt-theme mt-5 pt-3">Dr. Sonam Gupta</h4>
                                 <p class="txt-black">Professor</p>
                             </div>
                         </div>
@@ -43,17 +43,17 @@
                         <div class="row">
                             <div class="col-6">
                                 <figure class="member-image">
-                                    <img src="./assets/images/projects/chicago.jpg">
+                                    <img src="./assets/images/faculty/4.jpg">
                                 </figure>
                                 <h4 class="txt-theme mt-5 pt-3">Deepak Sir</h4>
                                 <p class="txt-black"></p>
                             </div>
                             <div class="col-6">
                                 <figure class="member-image">
-                                    <img src="./assets/images/projects/chicago.jpg">
+                                    <img src="./assets/images/faculty/5.jpg">
                                 </figure>
-                                <h4 class="txt-theme mt-5 pt-3">Lipika</h4>
-                                <p class="txt-black">Professor</p>
+                                <h4 class="txt-theme mt-5 pt-3">Abhishek Sir</h4>
+                                <!-- <p class="txt-black">Lab </p> -->
                             </div>
                         </div>
                     </div>

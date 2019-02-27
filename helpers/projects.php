@@ -10,18 +10,30 @@
                     <li data-target="#projects" data-slide-to="0" class="active"></li>
                     <li data-target="#projects" data-slide-to="1"></li>
                     <li data-target="#projects" data-slide-to="2"></li>
+                    <li data-target="#projects" data-slide-to="3"></li>
+                    <li data-target="#projects" data-slide-to="4"></li>
+                    <li data-target="#projects" data-slide-to="5"></li>
                 </ul>
 
                 <!-- The slideshow -->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./assets/images/projects/la.jpg" alt="Los Angeles" width="1100" height="500">
+                        <img src="./assets/images/projects/greenboard.png" alt="Los Angeles" width="1100" height="500">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/images/projects/chicago.jpg" alt="Chicago" width="1100" height="500">
+                        <img src="./assets/images/projects/nba.png" alt="Chicago" width="1100" height="500">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/images/projects/ny.jpg" alt="New York" width="1100" height="500">
+                        <img src="./assets/images/projects/moodle.png" alt="New York" width="1100" height="500">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/projects/aktu.png" alt="New York" width="1100" height="500">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/projects/koha.jpg" alt="New York" width="1100" height="500">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/projects/tifac.png" alt="New York" width="1100" height="500">
                     </div>
                 </div>
 

@@ -10,11 +10,12 @@
 <div class="container mt-5 text-center">
     <div class="row flat-slider">
         <div class="flat-slider-content">
-            <div class="flat-slider-item item-group">
+            <!-- Add this as required -->
+            <!-- <div class="flat-slider-item item-group">
                 <div class="icon snowwhite midnightblue-text">
                     2010
                 </div>
-            </div>
+            </div> -->
             <div class="flat-slider-item item-group">
                 <div class="icon snowwhite midnightblue-text">
                     2011

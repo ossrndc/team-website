@@ -10,18 +10,26 @@
                     <li data-target="#events" data-slide-to="0" class="active"></li>
                     <li data-target="#events" data-slide-to="1"></li>
                     <li data-target="#events" data-slide-to="2"></li>
+                    <li data-target="#events" data-slide-to="3"></li>
+                    <li data-target="#events" data-slide-to="4"></li>
                 </ul>
 
                 <!-- The slideshow -->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./assets/images/projects/la.jpg" alt="Los Angeles" width="1100" height="500">
+                        <img src="./assets/images/events/1.jpg" alt="Los Angeles" width="1100" height="500">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/images/projects/chicago.jpg" alt="Chicago" width="1100" height="500">
+                        <img src="./assets/images/events/2.jpg" alt="Chicago" width="1100" height="500">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/images/projects/ny.jpg" alt="New York" width="1100" height="500">
+                        <img src="./assets/images/events/3.png" alt="New York" width="1100" height="500">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/events/4.jpg" alt="Chicago" width="1100" height="500">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/events/5.png" alt="New York" width="1100" height="500">
                     </div>
                 </div>
                 <div class="carousel-control-custom carousel-next-custom">

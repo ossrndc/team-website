@@ -27,46 +27,6 @@ function bindEvents(timeout) {
              }
         });
 
-        // $(window).bind('touchstart', function (e) {
-        //     var swipe = e.originalEvent.touches,
-        //         start = swipe[0].pageY;
-        //
-        //     $(this).on('touchmove', function (e) {
-        //         var contact = e.originalEvent.touches,
-        //             end = contact[0].pageY,
-        //             distance = end - start;
-        //         if (distance < -30)
-        //             scrollDownCase();
-        //         if (distance > 30)
-        //             scrollUpCase();
-        //     })
-        // });
-
-        // $(document).bind('touchstart', function (e){
-        //     ts = e.originalEvent.touches[0].clientY;
-        // });
-        //
-        // $(document).bind('touchend', function (e){
-        //     console.log("touchmove");
-        //     var te = e.originalEvent.changedTouches[0].clientY;
-        //     console.log(ts,te);
-        //     if(ts > te){
-        //         scrollDownCase();
-        //     }else if(ts < te){
-        //         scrollUpCase();
-        //     }
-        // });
-
-        // $(document).bind('touchmove', function (e){
-        //     var currentY = e.originalEvent.touches[0].clientY;
-        //     if(currentY > lastY){
-        //         scrollUpCase()
-        //     }else if(currentY < lastY){
-        //         scrollDownCase()
-        //     }
-        //     lastY = currentY;
-        // });
-
         $(window).on('touchstart', function (e) {
 
             var swipe = e.originalEvent.touches,
